@@ -499,3 +499,4 @@ WHERE status = 'pending'                       --  跳过了最左列，索引�
 
 
 
+![[Pasted image 20260716104050.png]]

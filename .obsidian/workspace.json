@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "postgreSQL-整理版"
             }
+          },
+          {
+            "id": "776d93e2579ac490",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MVCC：为什么多人同时读写数据，数据库还能不乱.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MVCC：为什么多人同时读写数据，数据库还能不乱"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,45 +200,46 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "f694faf476c4f7ae",
+  "active": "776d93e2579ac490",
   "lastOpenFiles": [
-    "9.png",
+    "MVCC.md",
+    "MVCC：为什么多人同时读写数据，数据库还能不乱.md",
+    "19.png",
+    "Excalidraw/Drawing 2026-07-16 16.53.32.excalidraw.md",
+    "18.png",
+    "Excalidraw/Drawing 2026-07-16 16.50.35.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-16 16.30.15.excalidraw.md",
+    "17.png",
+    "Pasted image 20260716155725.png",
+    "Pasted image 20260716155723.png",
+    "Excalidraw/Drawing 2026-07-16 15.46.44.excalidraw.md",
+    "Pasted image 20260716104050.png",
+    "16.png",
     "postgreSQL-整理版.md",
+    "15.png",
+    "14.png",
+    "Excalidraw/Drawing 2026-07-16 15.28.25.excalidraw.md",
+    "13.png",
+    "Excalidraw/Drawing 2026-07-16 15.09.48.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-16 14.23.08.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-16 14.18.06.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-16 14.12.14.excalidraw.md",
     "Excalidraw/Drawing 2026-07-15 15.39.17.excalidraw.md",
-    "8.png",
     "Excalidraw/Drawing 2026-07-15 15.19.01.excalidraw.md",
     "postgreSQL.md",
-    "7.png",
     "Excalidraw/Drawing 2026-07-15 09.52.56.excalidraw.md",
     "Excalidraw/Drawing 2026-07-08 10.14.50.excalidraw.md",
-    "6.png",
     "Excalidraw/Drawing 2026-07-15 09.37.10.excalidraw.md",
-    "5.png",
     "Excalidraw/Drawing 2026-07-14 16.23.31.excalidraw.md",
-    "4.png",
     "Excalidraw/Drawing 2026-07-14 16.06.57.excalidraw.md",
-    "3.png",
     "Excalidraw/Drawing 2026-07-14 14.34.09.excalidraw.md",
-    "2.png",
     "Excalidraw/Drawing 2026-07-14 14.26.44.excalidraw.md",
     "Redis/Redis：它不只是缓存，还是高并发系统的工具箱.md",
-    "1.png",
     "Excalidraw/Drawing 2026-07-14 09.26.01.excalidraw.md",
-    "Redis/1.png",
     "未命名",
     "Redis",
     "redis.md",
     "Excalidraw/Drawing 2026-07-13 14.47.22.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-13 14.34.13.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-13 14.23.37.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-13 14.09.56.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-13 11.23.32.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-13 09.55.21.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-13 09.22.12.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-13 09.18.43.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-11 16.44.43.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-11 16.28.20.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-11 16.19.40.excalidraw.md",
     "nodejs学习路径/promise",
     "看过的",
     "nodejs学习路径/createApp到虚拟DOM",
