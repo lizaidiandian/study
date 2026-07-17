@@ -7,7 +7,7 @@
 上篇文章有讲到 ACID,重点是 隔离性,如果没有隔离会出现什么问题
 
 1. 脏读
-![[10.png]]
+![[PostgreSQL/10.png]]
 这里 事务2 已经基于 已扣款 也就是 余额 =1000 - 500 = 500 去做决策了,但是 A 的余额=1000
 
 更严重的例子:
@@ -19,7 +19,7 @@
 ```
 
 2. 不可重复读
-![[11.png]]
+![[PostgreSQL/11.png]]
 这里,同一事务内,同一行数据前后两次读的值不同，这就是不可重复读。
 
 更严重一点的例子:
@@ -33,7 +33,7 @@
 ```
 
 3. 幻读
-![[12.png]]
+![[PostgreSQL/12.png]]
 这里,并不是某一行的值变了,而是符合条件的行数变了
 
 更严重的例子:
@@ -54,7 +54,7 @@
 4. Serializable(串行化)
 
 通常隔离越强，冲突、等待或重试的成本也可能越高，但它们不是简单的线性反比:
-![[13.png]]
+![[PostgreSQL/13.png]]
 
 首先 PostgreSQL 的默认级别是 Read Committed(读已提交)。其次,你可以设置 Read Uncommitted,但是 PostgreSQL 会按 Read Committed 来处理，所以在 PostgreSQL 里不会发生脏读。
 
@@ -66,13 +66,13 @@
 那么 Read Committed 到底怎么做的?
 
 规则只有一条:每条 SQL 语句执行的瞬间，只能看到在那一瞬间之前已经 COMMIT 的数据
-![[14.png]]
+![[PostgreSQL/14.png]]
 
 
 那么 Repeatable Read 怎么防住不可重复读?
 
 规则变了一条: 整个事务会固定使用同一份快照。你可以先理解成，事务第一次查询时看到什么，后面普通查询就继续看这份结果，无论别人后来 COMMIT 了什么。
-![[15.png]]
+![[PostgreSQL/15.png]]
 
 但是 Repeatable Read 并没有把整张表锁住，也没有阻止别人修改。别的事务照样可以 insert、update、delete，完全不受影响。
 
@@ -97,7 +97,7 @@ MVCC = 多版本并发控制 (Multi-Version Concurrency Control)
 做法如下:
 1. 先有一个原始数据:
 
-![[16.png]]
+![[PostgreSQL/16.png]]
 2. 执行 update price = 200 (旧版本标记删除 + 插入新版本)
 ![[17.png]]
 
