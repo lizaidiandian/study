@@ -6,7 +6,7 @@
 
 我们需要一种更通用的方式，让请求携带可验证的凭据，这就是 **Token** 要解决的问题。
 
-![[token/1.png]]
+![[编程学习/nodejs学习路径/token/1.png]]
 
 ## 先分清几个容易混淆的概念
 
@@ -45,7 +45,7 @@ Token 本身通常不是“身份”这个人，而是让服务端能够确认�
 
 接下来看看 JWT 的结构和验签过程。
 
-![[token/2.png]]
+![[编程学习/nodejs学习路径/token/2.png]]
 
 JWT 通常由三段组成，中间用 `.` 分隔：
 
@@ -53,7 +53,7 @@ JWT 通常由三段组成，中间用 `.` 分隔：
 header.payload.signature
 ```
 
-![[token/3.png]]
+![[编程学习/nodejs学习路径/token/3.png]]
 
 这三段分别代表：
 
@@ -103,13 +103,13 @@ Signature = HMAC-SHA256(
 
 ### 签名过程
 
-![[token/4.png]]
+![[编程学习/nodejs学习路径/token/4.png]]
 
 认证服务使用自己的密钥，对 Header 和 Payload 计算签名，再把三段内容拼成 JWT 发给客户端。
 
 ### 验证过程
 
-![[token/5.png]]
+![[编程学习/nodejs学习路径/token/5.png]]
 
 资源服务器收到 JWT 后，需要完成几件事：
 
@@ -157,14 +157,14 @@ JWT 的签名可以防止攻击者修改 Payload 后还通过验证，但它解�
 
 ## Access Token 与 Refresh Token
 
-![[token/6.png]]
+![[编程学习/nodejs学习路径/token/6.png]]
 
 - **Access Token**：访问业务 API，通常有效期较短。
 - **Refresh Token**：向认证服务申请新的 Access Token，通常有效期更长，因此需要更谨慎地保存。
 
 一次典型的生命周期大致如下：
 
-![[token/7.png]]
+![[编程学习/nodejs学习路径/token/7.png]]
 
 最关键的是：
 

@@ -8,16 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "750ec3a2d174cb7e",
+            "id": "8ada99c419c88ae3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "image",
+              "state": {
+                "file": "编程学习/跨域/4.png"
+              },
+              "icon": "lucide-image",
+              "title": "4"
+            }
+          },
+          {
+            "id": "5a2d5aba0b854e2c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-08-08 16.23.25.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-08-08 16.23.25.excalidraw"
+            }
+          },
+          {
+            "id": "9041a96a2977858b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-08-08 16.26.41.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-08-08 16.26.41.excalidraw"
+            }
+          },
+          {
+            "id": "518498bf6d9f4692",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "编程学习/跨域/1.png"
+              },
+              "icon": "lucide-image",
+              "title": "1"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -37,7 +76,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -170,7 +211,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -178,56 +218,53 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "54cbac3329387c81",
   "lastOpenFiles": [
+    "编程学习/跨域/跨域：浏览器到底拦住了什么.md",
+    "编程学习/跨域",
+    "跨域.md",
+    "编程学习/跨域/6.png",
+    "编程学习/跨域/5.png",
+    "Excalidraw/Drawing 2026-08-08 16.50.05.excalidraw.md",
+    "Excalidraw/Drawing 2026-08-08 16.26.41.excalidraw.md",
+    "Excalidraw/Drawing 2026-08-08 16.23.25.excalidraw.md",
+    "编程学习/跨域/4.png",
+    "编程学习/跨域/2.png",
+    "Excalidraw/Drawing 2026-08-08 15.24.08.excalidraw.md",
+    "编程学习/跨域/3.png",
+    "Excalidraw/Drawing 2026-08-08 15.14.54.excalidraw.md",
+    "编程学习/跨域/1.png",
+    "Excalidraw/Drawing 2026-08-08 15.03.57.excalidraw.md",
+    "Excalidraw/Drawing 2026-08-08 14.23.55.excalidraw.md",
+    "wiki.db",
+    "编程学习/计算机是怎么跑起来的/《计算机是怎么跑起来的》 -第六章读后小结.md",
+    "编程学习/计算机是怎么跑起来的/《计算机是怎么跑起来的》 -第二章读后小结.md",
+    "编程学习/程序是怎么跑的/第十二章/机器学习：机器是怎么从数据里学出规则的.md",
+    "Excalidraw/Drawing 2026-07-29 10.47.27.excalidraw.md",
+    "编程学习/nodejs学习路径/token/Token 和 JWT：登录凭据是怎么工作的？.md",
+    "SKILL.md",
+    "purpose.md",
+    "SKILL 1.md",
     "nodejs学习路径/node连接数据库/用 Node.js 连接数据库：一次请求是怎么跑起来的？.md",
     "nodejs学习路径/node连接数据库/32.png",
     "nodejs学习路径/node连接数据库/31.png",
-    "nodejs学习路径/node连接数据库/30.png",
     "nodejs学习路径/node连接数据库",
     "nodejs学习路径",
     "PostgreSQL/高可用与扩展：一台 PostgreSQL 不够用之后怎么办？.md",
     "PostgreSQL/页面与缓冲区.md",
     "PostgreSQL/页面与缓冲区-整理版.md",
-    "PostgreSQL/22.png",
-    "PostgreSQL/21.png",
-    "PostgreSQL/20.png",
     "PostgreSQL",
     "Excalidraw/Drawing 2026-07-21 09.52.52.excalidraw.md",
     "Excalidraw/Drawing 2026-07-21 09.41.17.excalidraw.md",
     "Excalidraw/Drawing 2026-07-21 09.27.04.excalidraw.md",
-    "5.png",
-    "4.png",
-    "3.png",
-    "2.png",
-    "token/Token 和 JWT：登录凭据是怎么工作的？.md",
     "token/token.md",
-    "Token 和 JWT.md",
-    "Excalidraw/Drawing 2026-07-31 11.01.46.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-31 10.54.56.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-31 10.29.33.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-31 10.02.24.excalidraw.md",
-    "编程学习/身份验证/身份验证：登录之后，服务器怎么一直认得你？.md",
     "编程学习/身份验证",
-    "身份验证.md",
-    "Excalidraw/Drawing 2026-07-30 14.37.35.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-30 14.31.10.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-30 11.12.44.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-30 11.07.56.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-30 11.03.20.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-30 10.55.51.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-30 10.01.14.excalidraw.md",
-    "编程学习/ai子词切分/从 Token 到 Embedding：机器如何开始读懂语言.md",
     "编程学习/ai子词切分",
-    "token学习.md",
-    "Excalidraw/Drawing 2026-07-29 14.57.43.excalidraw.md",
     "token.zip",
-    "token",
-    "新建文件夹",
-    "编程学习/nodejs学习路径/node连接数据库",
-    "未命名"
+    "编程学习/nodejs学习路径/token",
+    "新建文件夹"
   ]
 }
